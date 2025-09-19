@@ -1,0 +1,101 @@
+/*header, nav, aside , article, footer {
+    border: 1px solid grey;
+}
+*/
+/* Header */
+header {
+    color : white ;
+    background-image: url('../images/fond1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+nav {
+    background-color: #060325;
+    height: 2%;
+    width: 100%-1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin : 0px;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+    width: 20% ;
+}
+
+nav li a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-weight: bold;
+}
+
+/* Corps */
+body {
+    background-color: #D3D3D3;
+    font-family: Arial, Verdana;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;         /* Active le flexbox */
+    align-items: stretch;  /* Étire les blocs sur la même hauteur */
+}
+
+/* Section */
+section {
+    flex: 3;
+    margin : 0 px ;
+    height : 50vh ;
+    width : 60 vw ;
+    position : relative ;
+}
+
+/* Articles */
+article {
+    width : 80% ;
+    list-style-type: none;
+}
+
+article li {
+    list-style-type: none;
+}
+
+article li a, aside dt {
+    font-style: italic;
+    color : blue;
+}
+
+/* Aside */
+aside {
+    flex: 2;
+    list-style-type: none ;
+    width : 20% ;
+    height: 50vh ;
+}
+
+/* Footer */
+footer {
+    background-color: #060325;
+    bottom: 0;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width : 100%;
+}
+
+footer img {
+    height: 27px;
+    width: 32px;
+}
